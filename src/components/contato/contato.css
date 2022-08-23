@@ -1,0 +1,67 @@
+.container.container__contato{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 55%;
+    gap: 12%;
+}
+.opcoes__contato{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.opcao__contato{
+    background: var(--color-bg-variant);
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+.opcao__contato:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+}
+.opcao__contato-icon{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.opcao__contato a{
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size: 0.8rem;
+}
+
+/* ===== FORM STYLES ===== */
+form{ 
+    display: flex;
+    position: absolute;
+    right: 50px;
+    width: 500px;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+input, textarea{
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid var(--color-primary-variant);
+    resize: none;
+    color: var(--color-white);
+}
+
+/* ===== MEDIA QUERIES (MEDIUM DEVICES) ===== */
+@media screen and (max-width: 1024px){
+    .container.container__contato{
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ===== MEDIA QUERIES (SMALL DEVICES) ===== */
+@media screen and (max-width: 600px){
+    .container.container__contato{
+        width: var(--container-width-sm);
+    }
+}
