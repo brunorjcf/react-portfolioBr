@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.475b8f1b.css",
+    "main.js": "/react-portfolio/static/js/main.3476c777.js",
+    "static/media/CV-BrunoSilva.pdf": "/react-portfolio/static/media/CV-BrunoSilva.6692c52be7dce85a2253.pdf",
+    "static/media/bg7.jpg": "/react-portfolio/static/media/bg7.89135c6417990908afb8.jpg",
+    "static/media/img2.jpg": "/react-portfolio/static/media/img2.3ff240fa33143e5850a8.jpg",
+    "static/media/portfolio5.png": "/react-portfolio/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
+    "static/media/bg6.jpg": "/react-portfolio/static/media/bg6.6041ec9dddc064ebfb4c.jpg",
+    "static/media/br7.jpg": "/react-portfolio/static/media/br7.a052447330aafb0eb95a.jpg",
+    "static/media/portfolio3.jpg": "/react-portfolio/static/media/portfolio3.cbab42559fe73e73906f.jpg",
+    "static/media/img3.jpg": "/react-portfolio/static/media/img3.0079bc32518211fb1807.jpg",
+    "static/media/portfolio4.jpg": "/react-portfolio/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
+    "static/media/bg5.jpg": "/react-portfolio/static/media/bg5.eaf0cfc75218b991430c.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.475b8f1b.css.map": "/react-portfolio/static/css/main.475b8f1b.css.map",
+    "main.3476c777.js.map": "/react-portfolio/static/js/main.3476c777.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.475b8f1b.css",
+    "static/js/main.3476c777.js"
+  ]
+}
